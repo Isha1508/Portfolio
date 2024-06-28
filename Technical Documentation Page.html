@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="Technical.css">
+</head>
+<body>
+  <main id="main-doc">
+    <div class="navigation">
+        <nav id="navbar">
+            <header>Home</header>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+            <a class="nav-link" href="#Headings">Headings</a>
+            <a class="nav-link" href="#Lists">Lists</a>
+            <a class="nav-link" href="#CSS">CSS</a>
+            <a class="nav-link"href="#JavaScript">JavaScript  </a>
+        </nav>
+    </div>
+    
+    <h1 id="main-heading">TECHNICAL DOCUMENTATION PAGE</h1>
+    <section class="main-section" id="Introduction">
+      <header><h1>Introduction</h1></header>
+      <p>HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. </p>
+      <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p>
+      <pre><code>< !DOCTYPE html ><br>  < html >       <br>   < head >      <br>   < /head >     <br>   < body >      <br>   < /body >     <br>  < /html>       </code></pre>
+    </section>
+    <section class="main-section" id="Headings">
+      <header><h1>Headings</h1></header>
+      <p>HTML has 6 heading levels</p>
+      <p>All of them have different font weights and sizes</p>
+      <ul id="Headings">
+        <li><h1>Heading level 1</h1></li>
+        <li><h2>Heading level 2</h2></li>
+        <li><h3>Heading level 3</h3></li>
+        <li><h4>Heading level 4</h4></li>
+        <li><h5>Heading level 5</h5></li>
+        <li><h6>Heading level 6</h6></li>
+      </ul>
+      <pre><code> < h1 > HEADING < /h1 ></code></pre>
+    </section>
+    <section class="main-section" id="Lists">
+      <header><h1>Lists</h1></header>
+      <h2>Ordered Lists (ol)</h2>
+      <p>Ordered lists are numbered lists in HTML starting from 1.</p>
+      <ol>
+        <li>List 1</li>
+        <li>List 2</li>
+      </ol>
+      <h2>Unordered Lists (ul)</h2>
+      <p>Unordered Lists are represented as basic bullet points.</p>
+      <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+      </ul>
+      <pre><code> ul           <br>  li code /li <br> /ul          </code></pre>
+    </section>
+    <section class="main-section" id="CSS">
+      <header><h1>CSS</h1></header>
+      <p>Cascading Style Sheet (CSS) is used to style the elements of HTML.</p>
+      <p>It can be used in numerous ways to make shapes, colour them, style fonts, place elements at different places etc.</p>
+      <pre><code>body {                    <br> background color: black; <br> font-size:large;         <br>}                         </code></pre>
+    </section>
+
+    <section class="main-section" id="JavaScript">
+      <header><h1>JavaScript</h1></header>
+      <p>JavaScript is commonly used for image manipulation, form validation and dynamic changes of content.</p>
+      <p>It makes the website more interactive using forms and links.</p>
+      <pre><code> script                                                           <br>  document.getElementbyId("demo").innerHTML = "Hello JavaScript!";<br> /script                                                          </code></pre>
+
+    </section>
+  </main>
+</body>
+</html>

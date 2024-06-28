@@ -1,0 +1,112 @@
+body {
+    background-color: #1679AB;
+    font-family: "Playfair Display", serif;
+}
+#form {
+    background-color: white;
+    width: 400px;
+    height:700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border:none;
+    border-radius: 30px;
+}
+.para {
+    margin-left: -207px;
+    font-size: large;
+}
+#icon {
+    margin-left: 15px;
+}
+.input {
+    margin-left: 0;
+    width: 270px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.input:focus {
+    outline: none;
+}
+#fp {
+    margin-right: -210px;
+    font-size: small;
+    text-decoration: none;
+}
+#login {
+    width: 285px;
+    height:35px;
+    font-size: large;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    background-image: linear-gradient(90deg,rgb(48, 104, 236), rgb(88, 41, 207));
+}
+#login:hover {
+    background-color:rgb(112, 225, 238);
+}
+#signup {
+    font-size: large;
+}
+#tag {
+    text-decoration: underline;
+}
+#link {
+    color: black;
+    font-size: x-large;
+}
+#link:hover {
+    color:blue;
+}
+#mail {
+    margin-left:0px;
+    margin-top: 8px;
+    color:black ;
+    font-size: xx-large;
+}
+#ig {
+    margin-left:0px;
+    margin-top: 8px;
+    color: white;
+    font-size: xx-large;
+    
+}
+#fb {
+    margin-left: 0px;
+    margin-top: 8px;
+    color: white;
+    font-size: xx-large;
+}
+.circle, .insta, .face {
+    width: 45px;
+    height:45px;
+}
+.circle {
+    background-image: linear-gradient(red, rgb(255, 136, 0), yellow);
+    border-radius: 50%;
+    margin-left: 35px;
+}
+    
+.insta {
+    background-image: linear-gradient(purple,rgb(225, 0, 255), rgb(255, 238, 0));
+    border-radius: 50%;
+    margin-left: 190px;
+    margin-top: -43px;
+}
+.face {
+    background-image: linear-gradient(rgb(34, 107, 243),blue);
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-top: -50px;
+}
+#field {
+    width:260px;
+    margin-left: 65px;
+    height: 47px;
+    border: 2px solid black;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: slategrey;
+    
+}
+
+#main-heading {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+pre code {
+    background-color:darkgray;
+}
+#navbar {
+    background-color: black;
+    overflow: hidden;
+}
+#navbar a{
+    text-decoration: none;
+    color: azure;
+    padding: 4px;
+    padding-top: 0;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigation {
+    width:420px;
+    max-height: 100px;
+    display: flex;
+    border-radius: 10%;
+}
+@media (max-width:800px) {
+    body {
+        background-color:khaki;
+    }
+}
+#Headings {
+    text-align: center;
+}

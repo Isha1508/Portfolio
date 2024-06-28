@@ -1,0 +1,87 @@
+body {
+    background-color:rgb(112, 106, 106);
+  }
+  #header-img {
+    width: 90px;
+    height:80px;
+    margin-left: 525px;
+    margin-top: -60px;
+    mix-blend-mode: color-burn;
+  }
+  header {
+    font-size:40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+  }
+  #project {
+    color:rgb(255, 183, 0);
+    text-align: center;
+    margin-top: -20px;
+    font-size: xx-large;
+  }
+  .project {
+    width: 300px;
+    height: 300px;
+    display: flex;
+  }
+  #img1 {
+    margin-left: 250px;
+    border-radius: 50px;
+  }
+  #img2 {
+    margin-left: 650px;
+    margin-top: -300px;
+    border-radius: 50px;
+  }
+  #img3 {
+    margin-left: 1050px;
+    margin-top: -300px;
+    border-radius: 50px;
+  }
+  #contact {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .nav {
+    width:1610px;
+    background-color: black;
+    padding: 5px;
+    margin-top: -105px;
+    margin-left: none;
+    font-size: larger;
+    word-spacing:10px;
+    overflow:hidden;
+    position: fixed;
+    
+  }
+  #nav-bar a {
+    text-decoration: none;
+    color: red;
+    display: inline;
+  }
+  #email {
+    margin-left: 660px;
+    margin-top: 50px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+  }
+  #submit {
+    background-color: rgb(236, 192, 81);
+    border: none;
+    border-radius: 5px;
+    height:22px;
+    width: 70px;
+    margin-left: 750px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size:small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  @media (min-width:100px) {
+    body {
+      background-color:grey;
+    }
+  }
